@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/lesson_over.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<title>干货-课程-完成</title>
+</head>
+<body>
+	<!-- 模块一 即 上半部分 -->
+	<div class="model-1">
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="swiper-container-k">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="middle m-left">
+                	<h1>恭喜你完成了训练</h1>
+                	<ul>
+                		<li>
+											<h2>5</h2>
+											<p>组动作</p>
+                		</li>
+                		<li>
+											<h2>12</h2>
+											<p>分钟</p>
+                		</li>
+                		<li>
+                		  <h2>199</h2>
+											<p>千卡</p>
+										</li>
+                	</ul>
+                	<h3>胸肌入门<span>2017年11月15日11:04:52</span></h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="middle m-right">
+                	<h1>胸肌入门</h1>
+                	<h3>胸肌入门<span>04:52</span></h3>
+                	<h3>胸肌入门<span>04:52</span></h3>
+                	<h3>胸肌入门<span>04:52</span></h3>
+                	<h3>胸肌入门<span>04:52</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- table导航点 -->
+    <div class="swiper-pagination-k">
+        <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+        <span class="swiper-pagination-bullet"></span>
+    </div> 
+	</div>
+
+	<!-- 底部模块 -->
+	<div class="model-2">
+		<p>训练感觉如何</p>
+		<p>感觉刚刚好</p>
+	  <div class="line"></div>
+	  <button>确定</button>
+	</div>
+	<script>
+		// 模块一 区域
+		var swiperK = new Swiper('.swiper-container-k', {
+        pagination: '.swiper-pagination-k',
+        slidesPerView: 1,//屏幕显示小div的个数
+        paginationClickable: true,
+        spaceBetween: 10,
+        // freeMode: true
+    });
+	</script>
+</body>
+</html>
